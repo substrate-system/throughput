@@ -14,6 +14,7 @@ Speed measurement
 
 <!-- toc -->
 
+- [fork](#fork)
 - [install](#install)
 - [Usage](#usage)
 - [License](#license)

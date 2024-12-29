@@ -1,16 +1,9 @@
 {
   "name": "@substrate-system/throughput",
   "version": "1.0.2",
+  "type": "module",
   "description": "Speed measurment",
   "main": "dist/index.js",
-  "author": "ThaUnknown",
-  "contributors": [
-    {
-      "name": "Nick Thomas",
-      "email": "nichoth@nichoth.com",
-      "url": "https://nichoth.com/"
-    }
-  ],
   "exports": {
     ".": {
       "import": "./dist/index.js",
@@ -71,5 +64,13 @@
     "url": "https://github.com/ThaUnknown/throughput/issues"
   },
   "homepage": "https://github.com/ThaUnknown/throughput#readme",
+  "author": "ThaUnknown",
+  "contributors": [
+    {
+      "name": "Nick Thomas",
+      "email": "nichoth@nichoth.com",
+      "url": "https://nichoth.com/"
+    }
+  ],
   "license": "MIT"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@substrate-system/throughput",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "Speed measurment",
   "main": "dist/index.js",

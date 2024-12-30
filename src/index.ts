@@ -2,7 +2,7 @@ const maxTick = 65535
 const resolution = 10
 const timeDiff = (1000 / resolution)
 
-export function throughput (seconds?:number):(delta:number)=>number {
+export function throughput (seconds?:number):(delta?:number)=>number {
     const start = +Date.now()
 
     const size = resolution * (seconds || 5)
@@ -10,7 +10,7 @@ export function throughput (seconds?:number):(delta:number)=>number {
     let pointer = 1
     let last = (getTick(start) - 1) & maxTick
 
-    return function (delta) {
+    return function (delta?:number):number {
         const tick = getTick(start)
         let dist = (tick - last) & maxTick
         if (dist > size) dist = size
